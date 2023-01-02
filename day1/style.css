@@ -1,0 +1,154 @@
+body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.topmain{
+    padding: 0px 80px 10px 80px;
+}
+.first{
+    background-color: #212020;
+}
+.logoimg{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #605e5e;
+
+}
+.navBar ul{
+    
+    display: flex;
+    justify-content:flex-start;
+    
+    align-items: center;
+}
+.navBar li{
+    display: inline;
+    justify-content: space-between;
+    background-color: #ff0000;
+    padding: 2px 10px;
+}
+.navBar2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #605e5e;
+
+}
+.navBar2 ul{
+    
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+.navBar2 li{
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    padding: 12px 12px;
+    
+    margin: 2px;
+    border-radius: 12px;
+    background-color: #c70303;
+    
+}
+.navBar3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #605e5e;
+
+}
+.navBar3 ul{
+    
+    display: flex;
+    justify-content:flex-start;
+    
+    align-items: center;
+}
+.navBar3 li{
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    padding: 12px 12px;
+    
+    margin: 2px;
+    border-radius: 12px;
+    background-color: #c70303;
+    
+}
+.navBar4{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #605e5e;
+   
+
+}
+.navBar4 ul{
+    
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+}
+.navBar4 li{
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    padding: 12px 12px;
+    
+    margin: 2px;
+    border-radius: 12px;
+    background-color: #c70303;
+    
+}
+
+
+
+
+
+
+
+
+
+img{
+    width: 250px;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 60px 30px 30px 60px;
+    background-color: #212020;
+}
+.image{
+    padding:5px 2px 5px 0px ;
+    
+}
+
+
+.content{
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    width: 250px;
+    word-wrap: normal;
+}
+footer p{
+    text-align: center;
+
+}
