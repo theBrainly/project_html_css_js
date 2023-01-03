@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*  this is used for width arjustment */
+}
+#main-div{
+    width: 80%;
+    margin: auto;
+}
+#bodyAera,#header,#sideBar,footer{
+    background-color: #bfbaba;
+}
+#logo{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10%;
+    background-color: #bfbaba;
+
+}
+#navigation{
+    width: 100%;
+    height: 30px;
+    background-color: #bfbaba;
+    margin-top: 7px;
+    margin-bottom:7px;
+    line-height: 30px;
+    text-align: center;
+
+}
+#header{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+#containBody{
+    display: flex;
+    flex-direction: row;
+    
+}
+#sideBar{
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+
+
+}
+#bodyAera{
+    width: 60%;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 400px;
+
+}
+footer{
+    height: 77px;
+    margin-top: 10px;
+    text-align: center;
+    line-height:77px;
+
+}
